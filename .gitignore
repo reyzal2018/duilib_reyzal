@@ -1,0 +1,8 @@
+ipch/
+Temp/
+*.VC.db
+*.VC.opendb
+.vs/
+Bin/
+doc/
+*.aps

@@ -1,0 +1,28 @@
+<VerticalLayout>
+	<TreeView bkcolor="#ffffffff" name="treeview" visiblecheckbtn="true" visiblefolderbtn="true" vscrollbar="true">
+		<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" itemtextcolor="#FFFF0000" text="A1">
+			<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" itemtextcolor="#FFFF0000" text="B1">
+				<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" itemtextcolor="#FFFF0000" text="C1">
+					<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" itemtextcolor="#FFFF0000"  text="D1">
+						<HorizontalLayout bkcolor="#FFFF00FF" width="300"/>
+					</TreeNode>
+					<Button text="扩展按钮" width="100"/>
+				</TreeNode>
+				<Edit text="请输入编辑内容" tipvalue="扩展文本框"/>
+			</TreeNode>
+			<Edit text="DuilibDemo" tipvalue="扩展文本框"/>
+		</TreeNode>
+		<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" itemtextcolor="#FFFF0000" text="A2">
+			<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" text="B2">
+				<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" text="C2">
+					<TreeNode checkboxattr="width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='unchecked.png' &quot; selectedimage=&quot;file='checked.png' &quot;" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; height=&quot;16&quot; normalimage=&quot;file='treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot;file='treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot;file='treeview_a.png' source='16,0,32,16' &quot;" itemattr="font=&quot;1&quot;" text="D2">
+						<Option group="RadioBoxTest" text="扩展单选框" width="100"/>
+					</TreeNode>
+					<Option group="RadioBoxTest" text="扩展单选框" width="100"/>
+				</TreeNode>
+				<CheckBox text="扩展复选框" width="100"/>
+			</TreeNode>
+			<CheckBox text="扩展复选框" width="100"/>
+		</TreeNode>
+	</TreeView>
+</VerticalLayout>

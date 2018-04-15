@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,24" roundcorner="5,5" shadowcolor="#333333" shadowposition="1,1" shadowsize="5" showshadow="true" size="600,400" sizebox="6,6,6,6">
+    <Font bold="false" default="true" id="0" name="微软雅黑" shared="true" size="12"/>
+    <Font bold="true" id="1" name="微软雅黑" shared="true" size="12"/>
+    <Default name="Button" value="hotimage=&quot;file='button_hover.png' corner='3,3,3,3'&quot; normalimage=&quot;file='button_normal.png' corner='3,3,3,3'&quot; textcolor=&quot;#ff386382&quot; pushedimage=&quot;file='button_pushed.png' corner='3,3,3,3'&quot;"/>
+    <VerticalLayout bkcolor="#FFD1E8F5">
+        <HorizontalLayout height="24">
+            <HorizontalLayout>
+                <Container width="12"/>
+                <Label name="lab_caption" font="0" padding="0, 5, 0, 0" text="弹出窗口测试" textcolor="#FF447AA1" width="200"/>
+            </HorizontalLayout>
+            <HorizontalLayout inset="0,1,0,0" width="123">
+                <Button hotimage="file='sys_dlg_menu.png' source='26,0,52,17'" maxheight="17" maxwidth="26" name="btn_menu" normalimage="file='sys_dlg_menu.png' source='52,0,78,17'" pushedimage="file='sys_dlg_menu.png' source='0,0,26,17'"/>
+                <Button hotimage="file='sys_dlg_min.png' source='26,0,52,17'" maxheight="17" maxwidth="26" name="btn_min" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
+                <Button hotimage="file='sys_dlg_max.png' source='26,0,52,18'" maxheight="17" maxwidth="26" name="btn_max" normalimage="file='sys_dlg_max.png' source='52,0,78,17'" pushedimage="file='sys_dlg_max.png' source='0,0,26,17'"/>
+                <Button hotimage="file='sys_dlg_restore.png' source='26,0,52,17'" maxheight="17" maxwidth="26" name="btn_restore" normalimage="file='sys_dlg_restore.png' source='52,0,78,17'" pushedimage="file='sys_dlg_restore.png' source='0,0,26,17'" visible="false"/>
+                <Button hotimage="file='sys_dlg_close.png' source='45,0,90,17'" maxheight="17" maxwidth="45" name="btn_close" normalimage="file='sys_dlg_close.png' source='90,0,135,17'" pushedimage="file='sys_dlg_close.png' source='0,0,45,17'"/>
+            </HorizontalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

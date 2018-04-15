@@ -1,0 +1,46 @@
+<VerticalLayout>
+	<HorizontalLayout height="26">
+		<Option group="listviewtab" hotimage="tabbar_hover.png" name="opt_listview1" normalimage="tabbar_normal.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" text="ListView1" textcolor="#FF386382" width="78"/>
+		<Option group="listviewtab" hotimage="tabbar_hover.png" name="opt_listview2" normalimage="tabbar_normal.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" text="ListView2" textcolor="#FF386382" width="78"/>
+		<Option group="listviewtab" hotimage="tabbar_hover.png" name="opt_listview3" normalimage="tabbar_normal.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" text="ListEx" textcolor="#FF386382" width="78"/>
+		<Option group="listviewtab" hotimage="tabbar_hover.png" name="opt_listview4" normalimage="tabbar_normal.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" text="TileLayout" textcolor="#FF386382" width="78"/>
+	</HorizontalLayout>
+	<TabLayout name="tab_listview" selectedid="0">
+		<VerticalLayout>
+			<Button name="btn_add_listview1_data" text="添加数据"/>
+			<List bkcolor="#FFFFFFFF" hscrollbar="true" itemalign="center" itembkcolor="#FFffffff" itemlinecolor="#ffcdcdcd" itemshowcolumnline="true" itemshowrowline="true" name="list_normal" vscrollbar="true">
+				<ListHeader height="24">
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="姓名" textcolor="#ff386382"/>
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="性别" textcolor="#ff386382"/>
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="年龄" textcolor="#ff386382"/>
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="得分" textcolor="#ff386382"/>
+				</ListHeader>
+			</List>
+		</VerticalLayout>
+		<VerticalLayout>
+			<List bkcolor="#FFFFFFFF" hscrollbar="true" itemalign="center" itembkcolor="#FFffffff" itemlinecolor="#ffcdcdcd" name="list_fix" vscrollbar="true">
+				<ListHeader height="24">
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="软件名称" textcolor="#ff386382"/>
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="大小" textcolor="#ff386382" width="120"/>
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="评分" textcolor="#ff386382" width="120"/>
+					<ListHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="操作" textcolor="#ff386382" width="120"/>
+				</ListHeader>
+			</List>
+		</VerticalLayout>
+		<VerticalLayout>
+			<ListEx bkcolor="#FFFFFFFF" hscrollbar="true" itemalign="center" itembkcolor="#FFffffff" itemlinecolor="#ffcdcdcd" itemshowrowline="true" name="listex_normal" vscrollbar="true">
+				<ListHeader height="24">
+					<ListContainerHeaderItem checkable="true" checkboxheight="16" checkboxnormalimage="file='unchecked.png'" checkboxselectedimage="file='checked.png'" checkboxwidth="16" hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="" width="30"/>
+					<ListContainerHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="姓名"/>
+					<ListContainerHeaderItem hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="学号"/>
+					<ListContainerHeaderItem editable="true" hotimage="file='list_header_hot.png'" normalimage="file='list_header_bg.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" text="成绩"/>
+				</ListHeader>
+			</ListEx>
+		</VerticalLayout>
+		<VerticalLayout>
+			<TileLayout name="tile_soft" padding="0,10,0,0" vscrollbar="true" >
+
+			</TileLayout>
+		</VerticalLayout>
+	</TabLayout>
+</VerticalLayout>

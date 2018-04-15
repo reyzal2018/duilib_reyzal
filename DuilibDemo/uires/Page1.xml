@@ -1,0 +1,54 @@
+<VerticalLayout>
+    <!-- 页面1 -->
+    <HorizontalLayout height="28" padding="0,10,0,0">
+        <Button name="btn_normal" text="普通按钮" width="80"/>
+        <Button name="btn_disabled" text="禁用按钮" width="80"/>
+        <Button name="btn_tooltip" text="提示按钮" tooltip="提示信息" width="80"/>
+        <Button font="2" name="btn_font" text="按钮字体" width="80"/>
+    </HorizontalLayout> 
+    <HorizontalLayout height="40" padding="0,10,0,0">
+        <Label text="测试文本" width="80"/>
+        <Label align="right" text="测试文本(右对齐)" width="120"/>
+        <Label endellipsis="true" padding="5,0,0,0" text="测试长长长长长文本" tooltip="测试长长长长长文本" width="80"/>
+        <Label showhtml="true" text="{c #ff0000}{i} 测试Html文本{/i}{/c}" width="100"/>
+        <Text padding="0,10,0,0" showhtml="true" text="{c #ff0000}{i} {a http://www.baidu.com}测试超链接文本{/a}{/i}{/c}" width="110"/>
+        <Text text="测试多行多行多行多行文本" width="80"/>
+    </HorizontalLayout>
+    <HorizontalLayout height="20" padding="0,10,0,0">
+        <CheckBox align="left" disabledimage="file='checkbox.png' dest='0,0,19,19' source='57,0,76,19'" hotimage="file='checkbox.png' dest='0,0,19,19' source='19,0,38,19'" name="chk_test_check2" normalimage="file='checkbox.png' dest='0,0,19,19' source='0,0,19,19'" selectedimage="file='checkbox.png' dest='0,0,19,19' source='95,0,114,19'" text="测试选择2" textpadding="19,0,0,0" width="80"/>
+        <CheckBox align="left" disabledimage="file='checkbox.png' dest='0,0,19,19' source='57,0,76,19'" hotimage="file='checkbox.png' dest='0,0,19,19' source='19,0,38,19'" name="chk_test_check1" normalimage="file='checkbox.png' dest='0,0,19,19' source='0,0,19,19'" selectedimage="file='checkbox.png' dest='0,0,19,19' source='95,0,114,19'" text="测试选择1" textpadding="19,0,0,0" width="80"/>
+        <CheckBox align="left" disabledimage="file='checkbox.png' dest='0,0,19,19' source='57,0,76,19'" hotimage="file='checkbox.png' dest='0,0,19,19' source='19,0,38,19'" name="chk_test_check3" normalimage="file='checkbox.png' dest='0,0,19,19' source='0,0,19,19'" selectedimage="file='checkbox.png' dest='0,0,19,19' source='95,0,114,19'" text="测试选择3" textpadding="19,0,0,0" width="80"/>
+        <CheckBox align="left" disabledimage="file='checkbox.png' dest='0,0,19,19' source='57,0,76,19'" hotimage="file='checkbox.png' dest='0,0,19,19' source='19,0,38,19'" name="chk_test_check4" normalimage="file='checkbox.png' dest='0,0,19,19' source='0,0,19,19'" selectedimage="file='checkbox.png' dest='0,0,19,19' source='95,0,114,19'" text="测试选择4" textpadding="19,0,0,0" width="80"/>
+        <CheckBox align="left" disabledimage="file='checkbox.png' dest='0,0,19,19' source='57,0,76,19'" hotimage="file='checkbox.png' dest='0,0,19,19' source='19,0,38,19'" name="chk_test_check5" normalimage="file='checkbox.png' dest='0,0,19,19' source='0,0,19,19'" selectedimage="file='checkbox.png' dest='0,0,19,19' source='95,0,114,19'" text="测试选择5" textpadding="19,0,0,0" width="80"/>
+    </HorizontalLayout>
+    <HorizontalLayout height="20" padding="0,10,0,0">
+        <Option align="left" group="test_radio" hotimage="file='radio_h.png' dest='0,0,16,16' source='0,0,16,16'" name="opt_test_radio1" normalimage="file='radio.png' dest='0,0,16,16' source='0,0,16,16'" selectedimage="file='radio_p.png' dest='0,0,16,16' source='0,0,16,16'" text="测试单选1" textpadding="19,0,0,0" width="80"/>
+        <Option align="left" group="test_radio" hotimage="file='radio_h.png' dest='0,0,16,16' source='0,0,16,16'" name="opt_test_radio2" normalimage="file='radio.png' dest='0,0,16,16' source='0,0,16,16'" selectedimage="file='radio_p.png' dest='0,0,16,16' source='0,0,16,16'" text="测试单选2" textpadding="19,0,0,0" width="80"/>
+        <Option align="left" group="test_radio" hotimage="file='radio_h.png' dest='0,0,16,16' source='0,0,16,16'" name="opt_test_radio3" normalimage="file='radio.png' dest='0,0,16,16' source='0,0,16,16'" selectedimage="file='radio_p.png' dest='0,0,16,16' source='0,0,16,16'" text="测试单选3" textpadding="19,0,0,0" width="80"/>
+        <Option align="left" group="test_radio" hotimage="file='radio_h.png' dest='0,0,16,16' source='0,0,16,16'" name="opt_test_radio4" normalimage="file='radio.png' dest='0,0,16,16' source='0,0,16,16'" selectedimage="file='radio_p.png' dest='0,0,16,16' source='0,0,16,16'" text="测试单选4" textpadding="19,0,0,0" width="80"/>
+        <Option align="left" group="test_radio" hotimage="file='radio_h.png' dest='0,0,16,16' source='0,0,16,16'" name="opt_test_radio5" normalimage="file='radio.png' dest='0,0,16,16' source='0,0,16,16'" selectedimage="file='radio_p.png' dest='0,0,16,16' source='0,0,16,16'" text="测试单选5" textpadding="19,0,0,0" width="80"/>
+    </HorizontalLayout>
+    <HorizontalLayout height="30" padding="0,10,0,0">
+        <Combo height="20" itemdisabledbkcolor="#ff8d8d8d" itemdisabledtextcolor="#ffcdcdcd" name="com_normal" padding="0,3,0,0" tooltip="请选择" width="100">
+            <ListLabelElement selected="true" text="默认Item"/>
+            <ListLabelElement enabled="false" text="禁用Item"/>
+            <ListLabelElement text="普通Item"/>
+            <ListLabelElement text="普通Item"/>
+            <ListLabelElement text="普通Item"/>
+        </Combo>
+        <Combo enabled="false" height="20" name="com_disabled" padding="0,3,0,0" tooltip="请选择" width="100">
+            <ListLabelElement selected="true" text="禁用Combo"/>
+        </Combo>
+    </HorizontalLayout>
+    <HorizontalLayout height="28" padding="0,10,0,0">
+        <Edit text="编辑框" width="80"/>
+        <Edit password="true" text="编辑框(密码)" width="80"/>
+        <Edit readonly="true" text="编辑框(只读)" width="80"/>
+        <Edit enabled="false" text="编辑框(禁用)" width="80"/>
+        <Edit maxchar="20" text="编辑框(最长20字符)" width="150"/>
+    </HorizontalLayout>
+    <HorizontalLayout height="28" padding="0,10,0,0">
+        <Button name="btn_window_normal" text="普通窗口" width="80"/>
+        <Button name="btn_window_domodal" text="模态窗口" width="80"/>
+    </HorizontalLayout>
+</VerticalLayout>

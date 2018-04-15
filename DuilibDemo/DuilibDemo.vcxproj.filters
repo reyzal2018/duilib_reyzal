@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2bc36337-747f-4e75-b4d0-2698553d519b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6f236cf0-4948-4022-a401-37a471656e18}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{78512011-e4b7-42d5-8a38-1d03a4995e86}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="DUI Resouece">
+      <UniqueIdentifier>{365f234e-fd08-4dbc-8529-148ab3a84d18}</UniqueIdentifier>
+      <Extensions>xml</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DuilibDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DuilibDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Duilib.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DuilibSmall.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\MainWnd.xml">
+      <Filter>DUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\Page4.xml">
+      <Filter>DUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\Page1.xml">
+      <Filter>DUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\Page2.xml">
+      <Filter>DUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\Page3.xml">
+      <Filter>DUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\ListviewItem.xml">
+      <Filter>DUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\TileItem.xml">
+      <Filter>DUI Resouece</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

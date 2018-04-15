@@ -1,0 +1,21 @@
+<VerticalLayout>
+    <HorizontalLayout height="180">
+        <GroupBox bkcolor="#FFD1E8F5" bordercolor="#FF111111" borderround="6,6" bordersize="1" font="3" padding="0,10,0,0" text="进度条" textcolor="#FF000000" width="200">
+            <Progress bkcolor="#ffffffff" foreimage="progress.png" height="15" max="100" min="0" text="50" textcolor="#FF00ff00" valign="vcenter" value="50" width="160"/>
+            <Progress bkcolor="#ffffffff" foreimage="progress.png" height="100" hor="false" max="100" min="0" padding="0,10,0,0" text="60" textcolor="#FF00ff00" valign="vcenter" value="60" width="15"/>
+        </GroupBox>
+        <GroupBox bkcolor="#FFD1E8F5" bordercolor="#FF111111" borderround="6,6" bordersize="1" padding="0,10,0,0" text="滑动条" textcolor="#FF000000" width="200">
+            <Slider bkimage="file='SliderBar_BK.bmp' mask='#ffff00ff'" height="19" max="100" min="0" name="slider" thumbhotimage="file='SliderBar_Thumb.png' mask='0xffffffff'" thumbimage="file='SliderBar_Thumb.png' mask='0xffffffff'" thumbpushedimage="file='SliderBar_Thumb.png' mask='0xffffffff'" thumbsize="12,20" value="50" width="124"/>
+            <Slider bkimage="file='VSliderBar_BK.bmp' mask='#ffff00ff'" height="100" hor="false" max="100" min="0" name="slider" thumbhotimage="file='VSliderBar_Thumb.png' mask='0xffffffff'" thumbimage="file='VSliderBar_Thumb.png' mask='0xffffffff'" thumbpushedimage="file='VSliderBar_Thumb.png' mask='0xffffffff'" thumbsize="20,12" value="50" width="20"/>
+        </GroupBox>
+    </HorizontalLayout>
+    <HorizontalLayout height="80" padding="0,10,0,0">
+        <RichEdit autovscroll="true" bordercolor="#ff8ca3be" bordersize="1" focusbordercolor="#ffff0000" text="RichEdit" textpadding="5,2,5,5" vscrollbar="true"/>
+    </HorizontalLayout>
+    <HorizontalLayout height="24" padding="0,10,0,0">
+        <DateTime showupdown="true" padding="6,0,0,0" customformat="yyyy-MM-dd HH:mm:ss" bkimage="Edit_110x26.png" width="150" align="left" textpadding="2,0,0,0"/>
+        <DateTime showupdown="true" padding="6,0,0,0" customformat="yyyy-MM-dd" bkimage="Edit_110x26.png" width="90" align="left" textpadding="2,0,0,0"/>
+        <DateTime showupdown="true" padding="6,0,0,0" customformat="HH:mm:ss" bkimage="Edit_110x26.png" width="70" align="left" textpadding="2,0,0,0"/>
+        <DateTime padding="6,0,0,0" customformat="yyyy-MM-dd HH:mm:ss" bkimage="Edit_110x26.png" width="160" align="left" textpadding="2,0,0,0"/>
+    </HorizontalLayout>
+</VerticalLayout>

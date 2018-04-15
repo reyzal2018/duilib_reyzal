@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,80">
+	<ListContainerElement>
+		<HorizontalLayout>
+			<Label height="64" name="lab_item_icon" padding="8,8,0,0" width="64"/>
+			<VerticalLayout padding="8,0,0,0">
+				<Label height="40" name="lab_item_name"/>
+				<Label height="40" name="lab_item_des"/>
+			</VerticalLayout>
+		</HorizontalLayout>
+		<VerticalLayout>
+			<Label name="lab_item_size" height="80" align="center"/>
+		</VerticalLayout>
+		<VerticalLayout>
+            <Progress stretchforeimage="false" name="lab_item_rankimg" foreimage="icon\star_green.png" bkimage="icon\star_white.png" height="14" max="100" min="0" value="50" padding="2,13,0,0" width="75"/>
+			<Label name="lab_item_ranknum" height="40" align="center"/>
+		</VerticalLayout>
+		<VerticalLayout>
+			<Button height="27" hotimage="file='button_hover.png' corner='3,3,3,3'" name="lab_item_install" normalimage="file='button_normal.png' corner='3,3,3,3'" padding="10,26,0,0" pushedimage="file='button_pushed.png' corner='3,3,3,3'" text="安装" textcolor="#ff386382" width="80"/>
+		</VerticalLayout>
+	</ListContainerElement>
+</Window>

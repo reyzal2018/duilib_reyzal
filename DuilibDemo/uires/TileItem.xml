@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<HorizontalLayout width="80" height="80">
+	<Button name="btn_tile_soft" text="软件"  textcolor="#FF000000" align="center" valign="bottom" />
+</HorizontalLayout>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,24" roundcorner="5,5" shadowcolor="#333333" shadowposition="1,1" shadowsize="5" showshadow="true" size="700,570" sizebox="6,6,6,6">
+    <Font bold="false" default="true" id="0" name="微软雅黑" shared="true" size="12"/>
+    <Font bold="true" id="1" name="微软雅黑" shared="true" size="12"/>
+    <Font bold="true" id="2" name="宋体" size="13"/>
+    <Font bold="true" id="3" name="宋体" size="20"/>
+    <Font id="4" name="宋体" size="12"/>
+    <Font bold="true" id="5" name="宋体" size="12"/>
+    <Font id="6" name="宋体" size="13"/>
+    <Font id="7" name="宋体" size="12"/>
+    <Default name="VScrollBar" shared="true" value="width=&quot;8&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='vscrollbar.png' source='0,60,8,100' corner='0,4,0,4'&quot; thumbhotimage=&quot;file='vscrollbar.png' source='8,60,16,100' corner='0,4,0,4'&quot; thumbpushedimage=&quot;file='vscrollbar.png' source='16,60,24,100' corner='0,4,0,4'&quot; railnormalimage=&quot;&quot; railhotimage=&quot;&quot; railpushedimage=&quot;&quot; raildisabledimage=&quot;&quot; bknormalimage=&quot;file='vscrollbar.png' source='0,0,8,60' corner='0,4,0,4'&quot; bkhotimage=&quot;&quot; bkpushedimage=&quot;&quot; bkdisabledimage=&quot;&quot; "/>
+    <Default name="HScrollBar" shared="true" value="height=&quot;8&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='hscrollbar.png' source='0,0,32,8' corner='4,0,4,0'&quot; thumbhotimage=&quot;file='hscrollbar.png' source='0,8,32,16' corner='4,0,4,0'&quot; thumbpushedimage=&quot;file='hscrollbar.png' source='0,16,32,24' corner='4,0,4,0'&quot; railnormalimage=&quot;&quot; railhotimage=&quot;&quot; railpushedimage=&quot;&quot; raildisabledimage=&quot;&quot; bknormalimage=&quot;file='hscrollbar.png' source='0,0,32,8' corner='4,0,4,0'&quot; bkhotimage=&quot;&quot; bkpushedimage=&quot;&quot; bkdisabledimage=&quot;&quot; "/>
+    <Default name="Button" value="hotimage=&quot;file='button_hover.png' corner='3,3,3,3'&quot; normalimage=&quot;file='button_normal.png' corner='3,3,3,3'&quot; textcolor=&quot;#ff386382&quot; pushedimage=&quot;file='button_pushed.png' corner='3,3,3,3'&quot;"/>
+    <Default name="Option" value="normalimage=&quot;file='checkbox.png' dest='0,0,19,19' source='0,0,19,19'&quot; hotimage=&quot;file='checkbox.png' dest='0,0,19,19' source='19,0,38,19'&quot; selectedimage=&quot;file='checkbox.png' dest='0,0,19,19' source='95,0,114,19'&quot;"/>
+    <Default name="CheckBox" value="normalimage=&quot;file='checkbox.png' dest='0,0,19,19' source='0,0,19,19'&quot; hotimage=&quot;file='checkbox.png' dest='0,0,19,19' source='19,0,38,19'&quot; selectedimage=&quot;file='checkbox.png' dest='0,0,19,19' source='95,0,114,19'&quot;"/>
+    <Default name="Combo" value="itemtextpadding=&quot;5,0,0,0&quot; textpadding=&quot;1,1,1,1&quot; hotimage=&quot;file='Combo_over.bmp' corner='2,2,19,2'&quot; normalimage=&quot;file='Combo_nor.bmp' corner='2,2,19,2'&quot; disabledimage=&quot;file='Combo_dis.png' corner='2,2,19,2'&quot; pushedimage=&quot;file='Combo_over.bmp' corner='2,2,19,2'&quot; textpadding=&quot;1,1,1,1&quot;"/>
+    <Default name="Edit" value="disablebordercolor=&quot;#ffcdcdcd&quot; focusbordercolor=&quot;#ffff0000&quot; bordercolor=&quot;#ff8ca3be&quot; bordersize=&quot;1&quot; "/>
+    <VerticalLayout bkcolor="#FFD1E8F5">
+        <HorizontalLayout height="24">
+            <HorizontalLayout>
+                <Container bkimage="file='icon.png' dest='5,4,21,20' " height="22" width="22"/>
+                <Label font="0" padding="0, 5, 0, 0" text="Duilib界面测试" textcolor="#FF447AA1" width="200"/>
+            </HorizontalLayout>
+            <HorizontalLayout inset="0,1,0,0" width="123">
+                <Button hotimage="file='sys_dlg_menu.png' source='26,0,52,17'" maxheight="17" maxwidth="26" name="btn_menu" normalimage="file='sys_dlg_menu.png' source='52,0,78,17'" pushedimage="file='sys_dlg_menu.png' source='0,0,26,17'"/>
+                <Button hotimage="file='sys_dlg_min.png' source='26,0,52,17'" maxheight="17" maxwidth="26" name="btn_min" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
+                <Button hotimage="file='sys_dlg_max.png' source='26,0,52,18'" maxheight="17" maxwidth="26" name="btn_max" normalimage="file='sys_dlg_max.png' source='52,0,78,17'" pushedimage="file='sys_dlg_max.png' source='0,0,26,17'"/>
+                <Button hotimage="file='sys_dlg_restore.png' source='26,0,52,17'" maxheight="17" maxwidth="26" name="btn_restore" normalimage="file='sys_dlg_restore.png' source='52,0,78,17'" pushedimage="file='sys_dlg_restore.png' source='0,0,26,17'" visible="false"/>
+                <Button hotimage="file='sys_dlg_close.png' source='45,0,90,17'" maxheight="17" maxwidth="45" name="btn_close" normalimage="file='sys_dlg_close.png' source='90,0,135,17'" pushedimage="file='sys_dlg_close.png' source='0,0,45,17'"/>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout height="65">
+            <Option align="bottom" font="1" foreimage="file='commmon.png' dest='10,5,50,45'" group="quickbar" hotimage="toolbar_hover.png" name="opt_normal" normalimage="toolbar_normal.png" padding="10,0,0,0" pushedimage="toolbar_pushed.png" selected="true" selectedimage="toolbar_pushed.png" text="常用控件" textcolor="#FF386382" textpadding="0,40,0,2" width="60"/>
+            <Option align="bottom" font="1" foreimage="file='firewall.png' dest='10,5,50,45'" group="quickbar" hotimage="toolbar_hover.png" name="opt_listview" normalimage="toolbar_normal.png" padding="10,0,0,0" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" text="ListView" textcolor="#FF386382" textpadding="0,40,0,2" width="60"/>
+            <Option align="bottom" font="1" foreimage="file='antivirus.png' dest='10,5,50,45'" group="quickbar" hotimage="toolbar_hover.png" name="opt_treeview" normalimage="toolbar_normal.png" padding="10,0,0,0" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" text="TreeView" textcolor="#FF386382" textpadding="0,40,0,2" width="60"/>
+            <Option align="bottom" font="1" foreimage="file='networkshield.png' dest='10,5,50,45'" group="quickbar" hotimage="toolbar_hover.png" name="opt_normal1" normalimage="toolbar_normal.png" padding="10,0,0,0" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" text="其他控件" textcolor="#FF386382" textpadding="0,40,0,2" width="60"/>
+        </HorizontalLayout>
+        <TabLayout name="tab_main" padding="8,8,8,8" selectedid="1">
+            <VerticalLayout>
+                <Include source="Page1.xml"/>
+            </VerticalLayout>
+            <VerticalLayout>
+                <Include source="Page2.xml"/>
+            </VerticalLayout>
+            <VerticalLayout>
+                <Include source="Page3.xml"/>
+            </VerticalLayout>
+            <VerticalLayout>
+                <Include source="Page4.xml"/>
+            </VerticalLayout>
+        </TabLayout>
+        <HorizontalLayout height="24"/>
+    </VerticalLayout>
+</Window>
