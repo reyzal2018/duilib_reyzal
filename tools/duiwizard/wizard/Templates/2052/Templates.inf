@@ -1,0 +1,15 @@
+readme.txt
+demo.cpp
+MainWnd.cpp
+MainWnd.h
+stdafx.cpp
+stdafx.h
+resource.h
+demo.rc
+Duilib.ico
+DuilibSmall.ico
+[uires]MainWnd.xml
+[uires]sys_dlg.png
+[uires]button_hover.png
+[uires]button_normal.png
+[uires]button_pushed.png

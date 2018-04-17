@@ -1,0 +1,84 @@
+<HTML DIR="LTR">
+
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+	<TITLE>'Duilib'</TITLE>
+	<META NAME="vs_targetSchema" CONTENT="http://schemas.microsoft.com/intellisense/ie5">
+	<LINK ID="LINKURL" REL="stylesheet" HREF="../../2052/NewStyles.css">
+
+	<!--  -->
+	<!-- SYMBOL 标记用于设置用户定义符号的默认值。-->
+	<!--  -->
+
+	<SYMBOL NAME='WIZARD_DIALOG_TITLE' TYPE=text VALUE='Duilib'></SYMBOL>
+	<SYMBOL NAME='SAMPLE_CHECKBOX' TYPE=checkbox VALUE=true></SYMBOL>
+	<SYMBOL NAME='SAMPLE_RADIO_OPTION1' TYPE=checkbox VALUE=true></SYMBOL>
+	<SYMBOL NAME='SAMPLE_RADIO_OPTION2' TYPE=checkbox VALUE=false></SYMBOL>
+	<SYMBOL NAME='SAMPLE_LISTBOX' TYPE=select-one VALUE='option1'></SYMBOL>
+	<symbol name='SOURCE_FILTER' type="text" value='cpp;c;cxx;def;odl;idl;hpj;bat;asm'></symbol>
+    <symbol name='HEADER_FILTER' type="text" value='h;hpp;hxx;hm;inl;inc'></symbol>
+    <symbol name='RESOURCE_FILTER' type="text" value='rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest'></symbol>
+    <symbol name='DUIRES_FILTER' type="text" value='xml'></symbol>
+	<SYMBOL NAME='APP_TYPE_SUMMARY' TYPE=text VALUE='//TODO: Application summary'></SYMBOL>
+</HEAD>
+
+<BODY BGCOLOR="BUTTONFACE" TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0" ONLOAD="InitDocument(document);">
+</BODY>
+</HTML>
+
+<SCRIPT LANGUAGE="JSCRIPT">
+
+
+// 这是一个初始化页面的函数的示例
+//
+function InitDocument(document)
+{
+	setDirection();
+	
+	if (window.external.FindSymbol('DOCUMENT_FIRST_LOAD'))
+	{
+		// 此函数基于上面的 SYMBOL 
+		// 标记中指定的值设置默认符号
+		//
+		window.external.SetDefaults(document);
+	}
+
+	// 加载文档并用合适的 
+	// 符号值初始化控件
+	//
+	window.external.Load(document);
+	OnWizFinish(document);
+}
+
+// 如果向导多于 1 页，则此 
+// 函数将浏览到指定的页
+//
+function Next(document, linkto)
+{
+	window.external.Next(document, linkto);
+}
+
+// 这是一个在用户单击“完成”时
+// 被调用的函数的示例
+//
+function OnFinish(document)
+{
+	OnWizFinish(document);
+}
+</SCRIPT>
+<SCRIPT ID="INCLUDE_SCRIPT" LANGUAGE="JSCRIPT"></SCRIPT>
+<SCRIPT ID="INCLUDE_COMMON" LANGUAGE="JSCRIPT"></SCRIPT>
+<!-- 
+Common.js 是一个脚本文件，其中包含向导使用的 Helper 
+函数。如果要从 Html 脚本调用这些
+函数，请包含此行。
+//-->
+<SCRIPT>
+	var strPath = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
+	strPath += "VCWizards/";
+	strPath += window.external.GetHostLocale();
+	var strScriptPath = strPath + "/Script.js";
+	var strCommonPath = strPath + "/Common.js";
+	document.scripts("INCLUDE_SCRIPT").src = strScriptPath;
+	document.scripts("INCLUDE_COMMON").src = strCommonPath;
+</SCRIPT>

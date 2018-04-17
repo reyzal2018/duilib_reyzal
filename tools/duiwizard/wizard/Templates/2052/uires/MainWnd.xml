@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,24" roundcorner="5,5" shadowcolor="#333333" shadowposition="1,1" shadowsize="5" showshadow="true" size="600,400" sizebox="6,6,6,6">
+    <Font bold="false" default="true" id="0" name="微软雅黑" shared="true" size="12"/>
+    <Default name="Button" value="hotimage=&quot;file='button_hover.png' corner='3,3,3,3'&quot; normalimage=&quot;file='button_normal.png' corner='3,3,3,3'&quot; textcolor=&quot;#ff386382&quot; pushedimage=&quot;file='button_pushed.png' corner='3,3,3,3'&quot;"/>
+    <VerticalLayout bkcolor="#FFD1E8F5">
+        <HorizontalLayout height="24">
+            <HorizontalLayout>
+                <Container height="22" width="22"/>
+                <Label font="0" name="caption" padding="0, 5, 0, 0" textcolor="#FF447AA1" width="200"/>
+            </HorizontalLayout>
+            <HorizontalLayout inset="0,1,0,0" width="123">
+                <Button height="17" hotimage="file='sys_dlg.png' source='260,0,286,17'" name="menu" normalimage="file='sys_dlg.png' source='286,0,312,17'" pushedimage="file='sys_dlg.png' source='234,0,260,17'" width="26"/>
+                <Button height="17" hotimage="file='sys_dlg.png' source='26,0,52,17'" name="min" normalimage="file='sys_dlg.png' source='52,0,78,17'" pushedimage="file='sys_dlg.png' source='0,0,26,17'" width="26"/>
+                <Button height="17" hotimage="file='sys_dlg.png' source='182,0,208,18'" name="max" normalimage="file='sys_dlg.png' source='208,0,234,17'" pushedimage="file='sys_dlg.png' source='156,0,182,17'" width="26"/>
+                <Button height="17" hotimage="file='sys_dlg.png' source='104,0,130,17'" name="restore" normalimage="file='sys_dlg.png' source='130,0,156,17'" pushedimage="file='sys_dlg.png' source='78,0,104,17'" visible="false" width="26"/>
+                <Button height="17" hotimage="file='sys_dlg.png' source='357,0,402,17'" name="close" normalimage="file='sys_dlg.png' source='402,0,447,17'" pushedimage="file='sys_dlg.png' source='312,0,357,17'" width="45"/>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout>
+            <VerticalLayout>
+                <Label align="center" padding="0,140,0,0" text="这是一个由Duilib向导生成的APP框架!" textcolor="ff386382"/>
+            </VerticalLayout>
+            <VerticalLayout padding="0,30,20,0" width="80">
+                <Button height="28" name="ok" text="确定"/>
+                <Button height="28" name="cancel" text="取消"/>
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
