@@ -109,7 +109,7 @@
       <AdditionalLibraryDirectories>$(DUIPATH)\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PreBuildEvent>
-      <Command>"$(DUIPATH)\Bin\DuilibResBuilder.exe" "$(ProjectDir)\" duires.zip</Command>
+      <Command>"$(DUIPATH)\tools\duirc.exe" "$(ProjectDir)\" duires.zip</Command>
     </PreBuildEvent>
     <CustomBuildStep>
       <Command>
@@ -133,7 +133,7 @@
       <AdditionalLibraryDirectories>$(DUIPATH)\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PreBuildEvent>
-      <Command>"$(DUIPATH)\Bin\DuilibResBuilder.exe" "$(ProjectDir)\" duires.zip</Command>
+      <Command>"$(DUIPATH)\tools\duirc.exe" "$(ProjectDir)\" duires.zip</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -145,6 +145,9 @@
     <Link>
       <AdditionalLibraryDirectories>$(DUIPATH)\Bin;</AdditionalLibraryDirectories>
     </Link>
+    <PreBuildEvent>
+      <Command>"$(DUIPATH)\tools\duirc.exe" "$(ProjectDir)\" duires.zip</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -155,6 +158,9 @@
     <Link>
       <AdditionalLibraryDirectories>$(DUIPATH)\Bin;</AdditionalLibraryDirectories>
     </Link>
+    <PreBuildEvent>
+      <Command>"$(DUIPATH)\tools\duirc.exe" "$(ProjectDir)\" duires.zip</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
